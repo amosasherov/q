@@ -12,6 +12,12 @@ ps)
 dx)
         docker exec -it $2 bash
         ;;
+dl)
+	docker logs $2
+pdb)
+	docker exec -it postgresdb bash 
+mdb)
+	docker exec -it mongodb bash
 py)
         python3 $2
         ;;
