@@ -14,10 +14,13 @@ dx)
         ;;
 dl)
 	docker logs $2
+	;;
 pdb)
-	docker exec -it postgresdb bash 
+	docker exec -it postgresdb bash
+	;;
 mdb)
 	docker exec -it mongodb bash
+	;;
 py)
         python3 $2
         ;;
