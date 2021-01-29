@@ -31,4 +31,3 @@ update)
         cd .. && rm -rf q
         ;;
 esac
-
