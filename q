@@ -13,7 +13,7 @@ dx)
         docker exec -it $2 bash
         ;;
 dl)
-	docker logs $2
+	docker logs $2 $3
 	;;
 pdb)
 	docker exec -it postgresdb psql -U user points
