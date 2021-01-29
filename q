@@ -16,10 +16,10 @@ dl)
 	docker logs $2
 	;;
 pdb)
-	docker exec -it postgresdb bash
+	docker exec -it postgresdb psql -U user points
 	;;
 mdb)
-	docker exec -it mongodb bash
+	docker exec -it mongodb mongo
 	;;
 py)
         python3 $2
