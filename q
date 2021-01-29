@@ -21,7 +21,7 @@ pdb)
 mdb)
 	docker exec -it mongodb mongo
 	;;
-py)
+p)
         python3 $2
         ;;
 update)
