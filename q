@@ -25,9 +25,6 @@ p)
         python3 $2
         ;;
 update)
-        git clone https://github.com/amosasherov/q.git
-        cd q
-        sudo cp q /usr/bin/
-        cd .. && rm -rf q
+	curl https://raw.githubusercontent.com/amosasherov/q/master/q > /usr/bin/q
         ;;
 esac
