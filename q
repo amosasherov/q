@@ -25,7 +25,8 @@ p)
         python3 $2
         ;;
 update)
-	curl https://raw.githubusercontent.com/amosasherov/q/master/q > /usr/bin/q
+	curl https://raw.githubusercontent.com/amosasherov/q/master/q > q.tmp
+	sudo mv q.tmp /usr/bin/q
 	sudo chmod 777 /usr/bin/q
         ;;
 esac
