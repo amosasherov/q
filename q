@@ -26,5 +26,6 @@ p)
         ;;
 update)
 	curl https://raw.githubusercontent.com/amosasherov/q/master/q > /usr/bin/q
+	sudo chmod 777 /usr/bin/q
         ;;
 esac
