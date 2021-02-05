@@ -15,10 +15,10 @@ dx)
 dl)
 	docker logs $2 $3
 	;;
-pdb)
+postgres)
 	docker exec -it postgresdb psql -U user points
 	;;
-mdb)
+mongo)
 	docker exec -it mongodb mongo
 	;;
 p)
