@@ -21,6 +21,8 @@ postgres)
 mongo)
 	docker exec -it mongodb mongo
 	;;
+mysql)
+	docker exec -it mysql mysql
 p)
         python3 $2
         ;;
